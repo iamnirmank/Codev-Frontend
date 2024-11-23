@@ -1,5 +1,4 @@
 "use client";
-import Header from "@/app/components/ui/header/header";
 import ChatSection from "./components/ui/chat/chat-section";
 import "./page.css";
 
@@ -24,9 +23,6 @@ const Content = () => {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center gap-10 p-6 bg-primary">
-      <SectionWrapper>
-        <Header />
-      </SectionWrapper>
       <Content />
     </main>
   );
