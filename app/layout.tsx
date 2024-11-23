@@ -6,8 +6,8 @@ import "./markdown.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "pa.ai | Your Personal Assitant",
-  description: "pa.ai is a personal assistant that helps you with your daily tasks.",
+  title: "Codev | Your next teammate",
+  description: "AI Developer Teammate",
 };
 
 export default function RootLayout({
